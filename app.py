@@ -92,8 +92,8 @@ if st.button("Predict sales", type="primary"):
 
     # 3. Show the result
     col1, col2, col3 = st.columns(3)
-    col1.metric("Forecast high",        f"{temperature:.0f} °F")
-    col2.metric("Precip probability",   f"{precip_prob:.0f} %")
+    col1.metric("Forecast high Temperature",        f"{temperature:.0f} °F")
+    col2.metric("Precipitation probability",   f"{precip_prob:.0f} %")
     col3.metric("Predicted sales",      f"{prediction:.0f} cones")
 
     # 4. Caveats

@@ -28,16 +28,14 @@ The app uses a `LinearRegression` model saved as `model.pkl`.
 ├── model.pkl            # The pre-trained Scikit-Learn Linear Regression model
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
-
-⚠️ Limitations
+```
+## ⚠️ Limitations
 The model is trained on a specific temperature range (approx. 40°F - 100°F). The app will trigger a warning if the forecast falls outside this range, as predictions may become unreliable.
 
 The Open-Meteo API provides forecasts up to 16 days in the future. Dates beyond this window are not selectable in the app.
 
 
-***
-
-### Don't forget `requirements.txt`!
+## Don't forget `requirements.txt`!
 Create a file named `requirements.txt` in the same folder as `app.py`. Streamlit Cloud uses this to install the exact libraries your app needs. Paste this inside:
 
 ```text

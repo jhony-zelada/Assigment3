@@ -13,7 +13,7 @@ CITIES = {
     "Miami": (25.76, -80.19),
     "Los Angeles": (34.05, -118.24),
 }
-LOW_TEMP, HIGH_TEMP = 50, 100        # temperatures (F) the model learned from
+LOW_TEMP, HIGH_TEMP = 40, 100        # temperatures (F) the model learned from
 LOW_PRECIP, HIGH_PRECIP = 0, 100     # precipitation probability (%) the model learned from
 LOW_SALES, HIGH_SALES = 170, 215     # below LOW_SALES is slow, above HIGH_SALES is busy
 URL = "https://api.open-meteo.com/v1/forecast"

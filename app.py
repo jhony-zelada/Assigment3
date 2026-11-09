@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 import streamlit as st
 
-# ---- Settings ----------------------------------------------------------
+# ---- Settings ---------------
 CITIES = {
     "Pittsburgh": (40.44, -79.99),
     "New York": (40.71, -74.01),
